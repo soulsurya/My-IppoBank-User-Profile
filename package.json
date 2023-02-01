@@ -1,0 +1,36 @@
+{
+  "name": "Banking-System-Backend",
+  "version": "1.0.0",
+  "description": "Banking system server backend",
+  "main": "server/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulsurya/Banking-System-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soulsurya/Banking-System-Backend/issues"
+  },
+  "homepage": "https://github.com/soulsurya/Banking-System-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-promise-router": "^4.1.1",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0",
+    "nodemon": "^2.0.20",
+    "twilio": "^3.84.1"
+  }
+}
